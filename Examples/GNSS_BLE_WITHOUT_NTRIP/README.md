@@ -23,5 +23,6 @@ To see how to connect your F9P ou UM980 module to an esp32, visit [this page](ht
 
 ## 
 
+https://github.com/lebretr/rover-gnss-rtk-esp32/blob/main/assets/images/ArduinoIde_config.png
 
-![image](/lebretr/assets/images/ArduinoIde_config.png)
+![image](/lebretr/rover-gnss-rtk-esp32/assets/images/ArduinoIde_config.png)
