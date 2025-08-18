@@ -18,7 +18,7 @@
 #define BT_NAME "GNSS_ANTENNA"
 /* Serial */
 #define BAUD_SERIAL 115200 // Debug Serial baund rate
-#define BAUD_RECEIVER 115200 // 460800 GNSS receiver baund rate
+#define BAUD_RECEIVER 460800    // GNSS receiver baund rate
 
 HardwareSerial *RTCM{&Serial1};
 HardwareSerial *Receiver{&Serial2};

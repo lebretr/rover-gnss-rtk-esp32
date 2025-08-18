@@ -1,3 +1,11 @@
+//CPU: 240MHZ
+//Core Debug Level: Verbose (Just for Test. For prod: None)
+//Erase All flash: Enable (Only the 1rst time)
+//Flash size: 4Mb
+//Partition: NO OTA (2Mb App/2Mb SPIFFS)
+//Speed 115200
+
+
 #include <BleSerial.h>
 #include <esp_attr.h>
 #include <esp_task_wdt.h>
