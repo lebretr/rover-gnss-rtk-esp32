@@ -2,7 +2,8 @@
 
 This is an example of a GNSS rover without NTRIP.
 
-If you want a centimeter-level accuracy on your phone, youd need to download [SW Maps](https://play.google.com/store/apps/details?id=np.com.softwel.swmaps&hl=fr) or [Lefebure NTRIP Client](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient&hl=fr) on your android phone.
+You can use it with [SW Maps](https://play.google.com/store/apps/details?id=np.com.softwel.swmaps&hl=fr) on your android phone. 
+SW Maps can use BLE Devices.
 
 ## Important note to build this source in Arduino IDE
 The better way is to only install the "esp32 by espressif" board and "ESP32_BleSerial by Avinab Malla" library.
