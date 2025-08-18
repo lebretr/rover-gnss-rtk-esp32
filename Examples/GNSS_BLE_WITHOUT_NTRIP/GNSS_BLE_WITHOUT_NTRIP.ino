@@ -20,8 +20,8 @@ uint8_t gnssSerialReadBuffer[BUFFER_SIZE];
 HardwareSerial GnssSerial(1);
 #define PIN_RX 16
 #define PIN_TX 17
-#define GNSS_SERIAL_BAUD_RATE  115200 //115200 Works with F9P/UM980 config on 2Hz.
-// #define GNSS_SERIAL_BAUD_RATE  460800 //460800 works with F9P/UM980  config on 5Hz!
+// #define GNSS_SERIAL_BAUD_RATE  115200 //115200 Works with F9P/UM980 config on 2Hz.
+#define GNSS_SERIAL_BAUD_RATE  460800 //460800 works with UM980 config on 5Hz!
 
 
 void startBluetooth() {
