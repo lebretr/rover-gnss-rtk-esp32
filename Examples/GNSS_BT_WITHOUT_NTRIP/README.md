@@ -2,8 +2,9 @@
 
 This is an example of a GNSS rover without NTRIP That use classical Bluetooth (SPP).
 
-You can use this example with [SW Maps](https://play.google.com/store/apps/details?id=np.com.softwel.swmaps&hl=fr) on your android phone, or with Lefebure Ntrip Client.
+You can use this example with [SW Maps](https://play.google.com/store/apps/details?id=np.com.softwel.swmaps&hl=fr) on your android phone.
 
+If you want to use another app, please consider Lefebure Ntrip Client for centimeter-level accuracy. 
 
 ## Important note to build this source
 All esp32 can't use serial Bluetooth. For example, you can use this code on an esp32-wroom-32D (Bluetooth 4) but not on esp32-S3 (bluetooth LE only).
@@ -17,6 +18,7 @@ This source is derived from [jancelin / rover-gnss / 8-BT](https://github.com/ja
 ## Note 2
 
 I used this code on a ESP32-WROOM-32D with an UM980 module
+
 
 ## How to connect your Gnss module to ESP32
 
