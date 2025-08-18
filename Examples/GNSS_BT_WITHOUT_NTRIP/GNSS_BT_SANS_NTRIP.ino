@@ -15,7 +15,7 @@
 /* CONFIG for UART1 */
 #define PIN_RX 16
 #define PIN_TX 17 
-#define BT_NAME "GNSS_RTK_ANTENNA"
+#define BT_NAME "GNSS_ANTENNA"
 /* Serial */
 #define BAUD_SERIAL 115200 // Debug Serial baund rate
 #define BAUD_RECEIVER 115200 // 460800 GNSS receiver baund rate

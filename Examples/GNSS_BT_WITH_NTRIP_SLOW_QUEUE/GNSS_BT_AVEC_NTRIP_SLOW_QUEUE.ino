@@ -38,7 +38,7 @@ HardwareSerial MySerial(1);
 #define MYSERIAL_BAUD_RATE  115200// 460800 //115200 Works with F9P config on 2Hz ( not in 5Hz ! )
 
 // BLUETOOTH Name
-#define BT_NAME "GNSS_RTK_ANTENNA_NTRIP"
+#define BT_NAME "GNSS_ANTENNA_NTRIP"
 
 const char* ssid     = WIFI_SSID;
 const char* password = WIFI_PASSWORD;
