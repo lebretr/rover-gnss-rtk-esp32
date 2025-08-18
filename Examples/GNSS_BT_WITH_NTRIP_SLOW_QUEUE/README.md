@@ -21,6 +21,20 @@ This source is derived from [jancelin / rover-gnss / 3b-GNSS_RTK](https://github
 
 I used this code on a ESP32-WROOM-32D with an UM980 module
 
+## Note 3
+
+I used this code with an 2Ghz config in my UM980 module:
+```
+CONFIG COM2 115200
+GPGGA COM2 0.5
+GPGSA COM2 0.5
+GPRMC COM2 0.5
+GPGSV COM2 0.5
+GPGST COM2 0.5
+```
+
+When I use a 5Ghz config, I have too many "bluetooth congested" error.
+
 ## How to connect your Gnss module to ESP32
 
 To see how to connect your F9P ou UM980 module to an esp32, visit [this page](https://github.com/jancelin/rover-gnss/blob/master/unit_tests/3b-GNSS_RTK/README.md)
