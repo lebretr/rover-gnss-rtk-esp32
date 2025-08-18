@@ -21,6 +21,11 @@ I use this code on a ESP32-WROOM-32D with an UM980 module
 
 To see how to connect your F9P ou UM980 module to an esp32, visit [this page](https://github.com/jancelin/rover-gnss/blob/master/unit_tests/3b-GNSS_RTK/README.md)
 
+
+## How to connect an ESP32-WROOM-32D and a UM980 module
+
+![image](/assets/images/ESP32-32D_UM980.png)
+
 ## How to configure Aduino IDE for an ESP32-WROOM-32D
 
 ![image](/assets/images/ArduinoIde_config.png)
