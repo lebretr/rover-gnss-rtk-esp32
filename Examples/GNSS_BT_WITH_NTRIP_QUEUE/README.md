@@ -45,6 +45,7 @@ And don't forget to change this variables in your code:
 #define MYSERIAL_BAUD_RATE  115200
 ...
 const long intervalPause = 25;
+const long queue_life = 750;
 ```
 
 ## How to connect your Gnss module to ESP32
