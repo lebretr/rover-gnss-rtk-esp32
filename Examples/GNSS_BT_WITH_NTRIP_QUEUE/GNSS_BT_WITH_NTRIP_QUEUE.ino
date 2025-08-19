@@ -160,7 +160,7 @@ void loop() {
   static unsigned long currentMillisPause = 0;  // timer
   
   static unsigned long previousMillis = 0; // timer
-  static unsigned long currentMillis = 0;  // timer
+  unsigned long currentMillis = 0;  // timer
   
   // Clear Queue if data is too old
   // Note: this happened if there are "SPP Write Congested!" error
