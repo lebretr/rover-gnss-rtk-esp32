@@ -11,6 +11,9 @@ All esp32 can't use serial Bluetooth. For example, you can use this code on an e
 
 Install the "esp32 by espressif" board in Arduino IDE.
 
+For good Bluetooth performance, the better way is to only have the "esp32 by espressif" board. 
+I recommend to remove "Arduino ESP32 Boards" and all other unnecessary boards and libraries if you want to avoid a lot of "SPP Write Congested!" errors in your esp32.
+
 ## Note
 
 This source is derived from [jancelin / rover-gnss / 8-BT](https://github.com/jancelin/rover-gnss/tree/master/unit_tests/8-BT). 

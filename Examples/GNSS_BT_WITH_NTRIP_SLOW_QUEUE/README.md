@@ -13,6 +13,9 @@ All esp32 can't use serial Bluetooth. For example, you can use this code on an e
 
 Install the "esp32 by espressif" board in Arduino IDE.
 
+For good Bluetooth performance, the better way is to only have the "esp32 by espressif" board. 
+I recommend to remove "Arduino ESP32 Boards" and all other unnecessary boards and libraries if you want to avoid a lot of "SPP Write Congested!" errors in your esp32.
+
 ## Note
 
 This source is derived from [jancelin / rover-gnss / 3b-GNSS_RTK](https://github.com/jancelin/rover-gnss/tree/master/unit_tests/3b-GNSS_RTK). 
@@ -23,7 +26,10 @@ I used this code on a ESP32-WROOM-32D with an UM980 module
 
 ## Note 3
 
-I used this code with an 2Ghz config in my UM980 module:
+If you use your Gnss module with a "5Ghz conf" and you have too many "SPP Write Congested!" errors in your esp32 serial monitor, so change the config of your Gnss module to "2Ghz".
+
+
+2Ghz conf for UM980:
 ```
 CONFIG COM2 115200
 GPGGA COM2 0.5
@@ -33,7 +39,13 @@ GPGSV COM2 0.5
 GPGST COM2 0.5
 ```
 
-When I use a 5Ghz config, I have too many "bluetooth congested" error.
+
+And don't forget to change this variables in your code:
+```
+#define MYSERIAL_BAUD_RATE  115200
+...
+const long intervalPause = 25;
+```
 
 ## How to connect your Gnss module to ESP32
 

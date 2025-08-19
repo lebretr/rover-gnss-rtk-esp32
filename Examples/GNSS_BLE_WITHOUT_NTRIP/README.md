@@ -2,14 +2,14 @@
 
 This is an example of a GNSS rover without NTRIP That use Bluetooth LE (BLE).
 
-Not all android aps are able to manage BLE.
+Not all android apps are able to manage BLE.
 
 You can use this example with [SW Maps](https://play.google.com/store/apps/details?id=np.com.softwel.swmaps&hl=fr) on your android phone.
 
 If you need a rover bluetooth but you want use it with another app that not manage BLE devices, please see "GNSS_BT_xxx" examples.
 
-## Important note to build this source in Arduino IDE
-The better way is to only install the "esp32 by espressif" board and "ESP32_BleSerial by Avinab Malla" library.
+## Important note: How to build this source in Arduino IDE
+The better way is to only install the "esp32 by espressif" board and "ESP32_BleSerial by Avinab Malla" library in Arduino IDE.
 
 If you encounter a compilation error, specialy with BLE, remove "Arduino ESP32 Boards" and all other unnecessary boards and libraries.
 

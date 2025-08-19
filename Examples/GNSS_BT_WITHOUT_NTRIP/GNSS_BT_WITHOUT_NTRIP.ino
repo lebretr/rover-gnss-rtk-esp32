@@ -18,7 +18,9 @@
 #define BT_NAME "GNSS_ANTENNA"
 /* Serial */
 #define BAUD_SERIAL 115200 // Debug Serial baund rate
-#define BAUD_RECEIVER 460800    // GNSS receiver baund rate
+// #define BAUD_RECEIVER  115200 //115200 Works with F9P/UM980 config on 2Hz.
+#define BAUD_RECEIVER 460800 //460800 works with UM980 config on 5Hz!
+
 
 HardwareSerial *RTCM{&Serial1};
 HardwareSerial *Receiver{&Serial2};
