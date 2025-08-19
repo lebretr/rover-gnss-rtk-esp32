@@ -96,12 +96,12 @@ void setup() {
 
 void loop() {
   //This task is not used
-  // vTaskDelete(NULL); //uncomment this line if you remove all other code in the loop function and the loop function is unucessary
+  vTaskDelete(NULL); //uncomment this line if you have no other code in the loop function.
   
   //Send a "ping" message in the serial monitor
-  static unsigned long lastDiag = 0;
-  if (millis() - lastDiag > 5000) {
-    Serial.println("ping");
-    lastDiag = millis();
-  }
+  // static unsigned long lastDiag = 0;
+  // if (millis() - lastDiag > 5000) {
+  //   Serial.println("ping");
+  //   lastDiag = millis();
+  // }
 }
