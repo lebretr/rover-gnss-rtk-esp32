@@ -37,7 +37,7 @@ void startBluetooth() {
   esp_read_mac(unitMACAddress, ESP_MAC_WIFI_STA);
   
   // Convert MAC address to Bluetooth MAC (add 2): https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/system.html#mac-address
-  unitMACAddress[5] += 2;                                                          
+  unitMACAddress[5] += 2;
   
   //Create device name
   sprintf(deviceName, "GNSS_ANTENNA-%02X%02X", unitMACAddress[4], unitMACAddress[5]); 
